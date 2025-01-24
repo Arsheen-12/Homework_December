@@ -1,0 +1,11 @@
+tuple=(1,23,3,4,5,6)
+tuple=list(tuple)
+print(tuple)
+print(type(tuple))
+set={1,2,3,4}
+set=list(set)
+print(set)
+#set-tuple
+set={1,2,3}
+set1=tuple(set)
+print(set1)
